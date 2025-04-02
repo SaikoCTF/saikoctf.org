@@ -1,7 +1,7 @@
 function init_challenge_view(challenge_template, challenge_container, challenge, showScores) {
 
   if (!showScores) {
-    challenge_template.querySelector('.ctf-challenge-time-header').remove();
+    challenge_template.querySelector('.ctf-challenge-time-header')?.remove();
   }
 
   // Clone template
