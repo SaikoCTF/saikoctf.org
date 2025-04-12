@@ -31,7 +31,7 @@ export function Schedule({date_start, date_end}: ScheduleProps) {
         <>
             <div>
                 <div className='brand'>SaikoCTF</div>
-                <div className='date'><span>{date_fmt.format(start)} {time_fmt.format(start)} - {date_fmt.format(end)} {time_fmt.format(end)}</span></div>
+                <div className='date'><span>{date_fmt.format(start)} {time_fmt.format(start)} -<br/> {date_fmt.format(end)} {time_fmt.format(end)}</span></div>
             </div>
             <hr/>
         </>
