@@ -12,6 +12,7 @@ export function Schedule({date_start, date_end}: ScheduleProps) {
     const end = new Date(date_end)
 
     const date_fmt_opt: Intl.DateTimeFormatOptions = {
+        weekday: "long",
         month: "long",
         day: "numeric"
         }

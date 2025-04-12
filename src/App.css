@@ -39,17 +39,17 @@ div {
 
   &.prizebar {
     background: #f5e3ff;
-    padding: 0 3em 3em 3em;
+    padding: 2.5em 2.5em;
 
     > div {
-      padding: 1em 0em;
+      padding: 0em 0em;
     }
   }
 
   &.place {
     /* font-family: "Trasandina W03 Book"; */
     font-size: 1.5em;;
-    line-height: normal;
+    line-height: .5em;    
   }
 
   &.place-sm {
@@ -61,8 +61,12 @@ div {
   &.award {
     /* font-family: "Trasandina W03 Bold Italic"; */
     color: #0036b6;
-    font-size: 3em;
+    font-size: 4em;
     line-height: normal;
+
+    > div {
+      font-size: 0.4em;
+    }
   }
 
   &.place-sm > span {
@@ -141,7 +145,7 @@ div {
 
 .date {
   font-family: "Trasandina W03 Bold";
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 a {
@@ -155,4 +159,5 @@ a {
 
 hr {
   border-top: 1px solid #fff;
+  margin: .7em 0em;
 }

@@ -20,7 +20,7 @@ function App() {
         </div>
       </div>
       <div className='row content'>
-        <div className='col col-xs-12 col-sm-3 prizebar last-xs first-sm'>
+        <div className='col col-xs-12 col-sm-4 prizebar last-xs first-sm'>
           <Schedule date_start={import.meta.env.VITE_CTF_DATE_START} date_end={import.meta.env.VITE_CTF_DATE_END}/>
           <div>
             <div className='award title'>$100</div>
@@ -28,8 +28,11 @@ function App() {
           </div>
           <hr/>
           <div>
-            <div className='award title'>$10</div>
-            <div className='place-sm'><span>additional per participant per flag captured (up to $100 for 10 flags)</span></div>
+            <div className='place-sm'><span>Participants who qualified for $100 will receive an additional</span></div>
+            <div className='award title'>$10
+              <div>per flag captured</div>
+            </div>
+            <div className='place-sm'><span>(up to $100 for 10 flags)</span></div>
           </div>
           <hr/>
           <div>
@@ -55,7 +58,7 @@ function App() {
           </div>
           
         </div>
-        <div className='col col-xs-12 col-sm-9 details'>
+        <div className='col col-xs-12 col-sm-8 details'>
           <div>
             <h2>Join us for a thrilling 2-day SaikoCTF Online Capture the Flag (CTF).</h2>
 
@@ -63,15 +66,31 @@ function App() {
 
             <h3>Win up to $550!</h3>
 
-            <p>SaikoCTF has been successfully played at HITB in Bangkok, ECSC in Turin, and Ekoparty in Buenos Aires and is now online.</p>
+            <p>SaikoCTF has been successfully played at HITB in Bangkok, ECSC in Turin, and
+            Ekoparty in Buenos Aires. SaikoCTF was also at Wicked6, a virtual global hack
+            sponsored by Katzcy, the innovative team behind PlayCyber<sup>&reg;</sup>. SaikoCTF is
+            now online.</p>
 
-            <p>We are a group of researchers running SaikoCTF and collecting data to study cyber defenses. The challenges in this CTF involve host-based and web-based vulnerability discovery and exploitation without involving advanced cryptography or binary reverse engineering and exploitation. You will work in a virtualized environment with the aid of a Kali Linux penetration testing suite.</p>
+            <p>We are a group of researchers running SaikoCTF and collecting data to study
+            cyber defenses. The challenges in this CTF involve host-based and web- based
+            vulnerability discovery and exploitation without involving advanced
+            cryptography or binary reverse engineering and exploitation. You will work in a
+            virtualized environment with the aid of a Kali Linux penetration testing suite.</p>
 
-            <p>Your privacy is our utmost priority. We will not collect personally identifiable information, such as your name, social media, or hacker handle. Instead, you will be randomly assigned a unique SaikoCTF handle during registration to protect your identity and to be used in the leaderboard. You only need a Discord account to join SaikoCTF.</p>
+            <p>Your privacy is our utmost priority. We will not collect personally identifiable
+            information, such as your name, social media, or hacker handle. Instead, you
+            will be randomly assigned a unique SaikoCTF handle during registration to
+            protect your identity and to be used in the leaderboard.
+            You only need a Discord account to join SaikoCTF.</p>
 
-            <p>SaikoCTF is a timed challenge. There will be 10 unique challenges each accompanied by 5-minute surveys. Each challenge is limited to 1 hour. An automated scoring and publicized leaderboard ranks participants by flags captured and total solve time. Scores will be posted using the SaikoCTF handles only.</p>
+            <p>SaikoCTF is a timed challenge. There will be 10 unique challenges each
+            accompanied by 5-minute surveys. Each challenge is limited to 1 hour.
+            An automated scoring and publicized leader board ranks participants by flag
+            captured and total solve time. The top scores will be posted using the
+            SaikoCTF handles only.</p>
 
-            <p>Participation requirements: Must be at least 18 years old, be an experienced offensive CTF player, and understand written instructions in English.</p>
+            <p>Participation requirements: Must be at least 18 years old, be an experienced offensive CTF player, and understand written instructions in English, and must not
+            have played SaikoCTF before.</p>
           </div>
           <Discord className='registration title' 
             prereg_date_start={import.meta.env.VITE_CTF_PREREG_DATE} 
