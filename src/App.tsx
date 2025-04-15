@@ -66,10 +66,10 @@ function App() {
 
             <h3>Win up to $550!</h3>
 
-            <p>SaikoCTF has been successfully played at HITB in Bangkok, ECSC in Turin, and
-            Ekoparty in Buenos Aires. SaikoCTF was also at Wicked6, a virtual global hack
-            sponsored by Katzcy, the innovative team behind PlayCyber<sup>&reg;</sup>. SaikoCTF is
-            now online.</p>
+            <p>SaikoCTF has been successfully played at HITB in Bangkok, ECSC in Turin,
+            Ekoparty in Buenos Aires, and during the virtual Wicked6 hack and chat hosted
+            by Katzcy, the innovative team behind PlayCyber<sup>&reg;</sup> and the US Cyber Games.
+            Now SaikoCTF is online with its latest Mayday event, co-hosted by PlayCyber.</p>
 
             <p>We are a group of researchers running SaikoCTF and collecting data to study
             cyber defenses. The challenges in this CTF involve host-based and web- based
